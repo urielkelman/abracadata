@@ -1,0 +1,79 @@
+Notas Analisis
+
+fiuba 1: nivel educativo de los postulantes
+
+    id postulante   
+    nivel educativo
+    estado          
+    
+Para un mismo idpostulante hay varias entradas con los distintos grados de educacion
+
+
+fiuba 2: genero y edad de los postulantes
+
+    id postulante
+    fecha nacimiento  (AAAA-MM-DD)
+    sexo (FEM/MASC/NO DECLARA)
+
+
+
+fiuba 3: Que anuncios vio cada persona
+    
+    id aviso
+    timestamp ()
+    id postulante
+    
+ 
+
+fiuba 4: postulaciones
+
+    id aviso
+    id postulante
+    fecha postulacion
+
+
+fiuba 5: listado avisos online
+    
+    id aviso
+    
+
+fiuba 6: detalle de los avisos
+    
+    id aviso
+    id pais
+    titulo
+    descripcion: contenido del aviso en html
+    nombre zona [may contain blanks]
+    ciudad
+    mapa calle --> direccion 
+    tipo trabajo: part/full
+    nivel laboral: Jr/sr/ssr/etc
+    nombre area: area de trabajo (rrhh, informatica, ventas, etc)
+    denominacion empresa: nombre de la empresa
+    
+    
+    
+    
+    
+Preguntar sobre la cantaidad de avisos. en el listado de avisos hay menos que en el csv de detalles? Lo mismo para postulaciones y vistas. 
+
+
+
+Preguntas: 
+    - En base al genero de los postulantes:
+        
+        Nivel educativo por genero (porcentual)
+        Cantidad de postulaciones por genero
+        Cantidad de postulaciones vs cantidad de vistas por genero
+        
+    - Tipos de area:
+        
+        Demanda vs oferta: promedio de postulados por area del anuncio
+        
+    - Por nivel educativo:
+    
+        Postulaciones contra vistas por nivel educativo
+        
+        
+    - Por edad: 
+        
