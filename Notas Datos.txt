@@ -76,4 +76,9 @@ Preguntas:
         
         
     - Por edad: 
+        Distribucion de las edades de postulacion.
+        Distribucion de las edades de postulacion por genero, comparandola con la distribucion de las edades de     
+        postulacion y entre ellas.
         
+        
+    - Postulantes que se postularon sin antes haber realizado una vista al anuncio.
